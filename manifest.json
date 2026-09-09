@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "harsh.llm",
+  "name": "Omarchy LLM",
+  "version": "1.0.0",
+  "author": "harsh",
+  "license": "GPL-2.0-or-later",
+  "description": "Native AI desktop companion and agent for Omarchy with multi-provider streaming, system tools, and dynamic theming",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "AI Assistant",
+    "description": "System-aware AI assistant with multi-provider streaming, desktop tools, and voice input",
+    "category": "AI",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "icon": "󰚩"
+    },
+    "schema": [
+      {
+        "key": "icon",
+        "type": "string",
+        "label": "Bar Icon Glyph",
+        "defaultValue": "󰚩",
+        "description": "Nerd Font glyph displayed on the status bar"
+      }
+    ]
+  }
+}

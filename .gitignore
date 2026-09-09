@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Editor & OS files
+.DS_Store
+*.swp
+*~
+*.bak
+*.bak.*
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+/tmp/
