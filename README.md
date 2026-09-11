@@ -64,3 +64,22 @@ To remove Omarchy LLM from your Omarchy shell and Hyprland configuration:
   ```
 - **Voice Input (STT)**: Click or hold the microphone button in the chat view (supports PipeWire `pw-record` and OpenAI Whisper).
 - **Persistent Data**: Configuration and API keys are stored securely (mode `0600`) under `~/.local/state/omarchy/plugins/harsh.llm/`.
+
+---
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0** (GPLv3).
+
+**License File**: See the [LICENSE](LICENSE) file for the full license text.
+
+**External Dependencies & Their Licenses**:
+- **OpenAI Python Library** - MIT License
+- **OpenRouter API** - Apache 2.0 License
+- **Anthropic Claude API** - Proprietary (API access)
+- **Quickshell** - MIT License
+- **PipeWire** - LGPL 2.1+
+- **Whisper (OpenAI)** - MIT License
+- **whisper-cpp** - MIT License
+
+For more information about GPLv3, visit: https://www.gnu.org/licenses/gpl-3.0.html
